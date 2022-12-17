@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-12-16T18:45:57.352Z"
+    },
+    {
+      "id": 2,
+      "description": "Manutenção de software",
+      "type": "income",
+      "category": "Venda",
+      "price": 600,
+      "createdAt": "2022-12-16T18:45:57.352Z"
+    },
+    {
+      "id": 3,
+      "description": "Alimentação",
+      "type": "outcome",
+      "category": "Consumo",
+      "price": 70,
+      "createdAt": "2022-12-16T18:45:57.352Z"
+    },
+    {
+      "id": 4,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1700,
+      "createdAt": "2022-12-16T18:45:57.352Z"
+    },
+    {
+      "category": "Venda",
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2022-12-17T15:54:35.817Z",
+      "id": 5
+    },
+    {
+      "category": "Alimentação",
+      "description": "Alimentação",
+      "price": 10,
+      "type": "outcome",
+      "createdAt": "2022-12-17T15:58:25.917Z",
+      "id": 6
+    },
+    {
+      "category": "Venda",
+      "description": "Desenvolvimento de App",
+      "price": 500,
+      "type": "income",
+      "createdAt": "2022-12-17T16:07:43.889Z",
+      "id": 7
+    }
+  ]
+}
