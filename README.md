@@ -46,6 +46,7 @@ npm json-server server.json -p 3333 -w
 - **[Phosphor Icons](https://phosphoricons.com/)** 
 - **[Zod](https://github.com/colinhacks/zod)**
 - **[use-context-selector](https://github.com/dai-shi/use-context-selector)**
+- **[Radix-UI](https://www.radix-ui.com/)**
 <br>
 
 ---
