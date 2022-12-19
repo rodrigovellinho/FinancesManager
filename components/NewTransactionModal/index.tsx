@@ -11,7 +11,7 @@ import {
   TransactionType,
 } from "./styles";
 import { api } from "../../lib/axios";
-import { useContext } from "react";
+import { useContextSelector } from "use-context-selector";
 import { TransactionsContext } from "../../contexts/TransactionContext";
 
 const newTransactionFormSchema = zod.object({
@@ -24,7 +24,12 @@ const newTransactionFormSchema = zod.object({
 type NewTransactionFormInputs = zod.infer<typeof newTransactionFormSchema>;
 
 export function NewTransactionModal() {
-  const { createTransaction } = useContext(TransactionsContext);
+  const createTransaction = useContextSelector(
+    TransactionsContext,
+    (context) => {
+      return context.createTransaction;
+    }
+  );
   const {
     register,
     handleSubmit,
